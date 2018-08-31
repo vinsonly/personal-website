@@ -1,0 +1,155 @@
+{
+  "main": {
+    "name":"Vinson Ly",
+    "occupation":"Junior Software Engineer",
+    "description":"I am most interested interested in the FinTech and Blockchain Industry, with many relevant projects under my belt. I am currently seeking for a software engineering internship position, starting in January 2018. If you would like to chat, feel free to reach out at any one of my social outlets below",
+    "image":"profilepic2.jpg",
+    "bio": "I'm an outgoing, aspiring Software Engineer. I am most experienced with Web Development, using React and NodeJS. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the President of the SFU Cryptocurrency Club. Some other technologies I am massively interested in and excited or is Machine Learning and Artificial Intelligence. If we share any common interests, please feel free to send me a message on LinkedIn and we can chat!",
+    "contactmessage":"If you would like to get in contact with me, please fill out the form and I will email you back at my earliest convienience.",
+    "email": "vinsonl@sfu.ca",
+    "phone": "",
+    "address":{
+      "city":"Vancouver",
+      "state":"BC"
+    },
+    "website": "http://www.vinsonly.com",
+    "resumedownload":"https://drive.google.com/open?id=1MbgAisLT0-5f1f41S3jdh11xqJyekBQA",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/vinsonly/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/vins_only",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/vinsonly",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"I am well versed in all aspects of Web Development",
+    "education":[
+      {
+        "school":"Simon Fraser University",
+        "degree":"Software Systems",
+        "graduated":"January 2017 - Present (Expected Graduation - September 2020)",
+        "description":"A program that focuses on the development of high-quality software for the public and private industry."
+      }
+    ],
+    "work":[
+      {
+        "company":"Porton Health Corp.",
+        "title":"Full Stack & AI Developer (Coop)",
+        "years":"May 2018 - August 2018",
+        "description":"I was responsible for developing new features, resolving bugs, and refactoring code for the Porton Health Telemedicine Web App. I revamped the live session chat feature using React and WebRTC. Addiitonally, I optimized the performance of the web app, whilst converting the front-end architecture from Blaze to React."
+      }
+    ],
+    "extracurriculars": [
+      {
+        "org": "SFU Cryptocurrency Club",
+        "title": "Cofounder & President",
+        "dates": "January 2018 - Present",
+        "description": "I manage and oversee the operations of the club and host workshops and events for the club members and other students at SFU. ",
+        "website": "https://sfucrypto.herokuapp.com/"
+      },
+      {
+        "org": "Scouts Canada (99th SFX East Vancouver Scout Group)",
+        "title": "Colony Section Head",
+        "dates": "September 2016 - Present",
+        "description": "I manage and oversee the operations of the Colony Section in the 99th East Vancouver SFX Scout Group. I plan events, run meetings, and host workshops for over 50 registered youth in the Scout group."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"95%"
+      },
+      {
+        "name":"CSS",
+        "level":"75%"
+      },
+      {
+        "name":"HTML5",
+        "level":"70%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      },
+      {
+        "name":"SQL",
+        "level":"80%"
+      },
+      {
+        "name":"NodeJS",
+        "level":"95%"
+      },
+      {
+        "name":"Solidity",
+        "level":"50%"
+      },
+      {
+        "name":"Java",
+        "level":"60%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Savour",
+        "category":"A decentralized food-sharing marketplace that allows home-cooks to list their delicious home-cooked meals in a trustless, decentralixed manner.",
+        "image":"Savour.png",
+        "url":"https://github.com/vinsonly/Savour"
+      },
+      {
+        "title":"Coinbay - Classifieds Listing Web App",
+        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrenc payment and escrow solution. Deployed to AWS",
+        "image":"Coinbay.png",
+        "url":"http://34.218.253.86/"
+      },
+      {
+        "title":"Savor - Budget Tracker & Lifestyle Web App",
+        "category":"A budget tracker lifestyle web app, built using Ruby on Rails.",
+        "image":"Savor.png",
+        "url":"https://savor-staging.herokuapp.com"
+      },
+      {
+        "title":"Cryptocurrency Trading Bot",
+        "category":"An automated cryptocurrency trading bot, built with NodeJS to automatically place buy and sell orders, using a custom technical analysis algorithm.",
+        "image":"cryptocurrency-trading-bot.jpg",
+        "url":"https://github.com/vinsonly/node-crypto-trading-bot"
+      },
+      {
+        "title":"Personal Website",
+        "category":"A personal website built using ReactJS",
+        "image":"personal-site.png",
+        "url":"https://vinsonly.herokuapp.com"
+      },
+      {
+        "title":"SFU Cryptocurrency Club Website",
+        "category":"The official website for the SFU Cryptocurrency Club",
+        "image":"sfu-crypto-site.png",
+        "url":"https://sfucrypto.herokuapp.com/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"",
+        "user":""
+      }
+    ]
+  }
+}
