@@ -1,10 +1,10 @@
 {
   "main": {
     "name":"Vinson Ly",
-    "occupation":"Junior Software Engineer",
-    "description":"I am most interested interested in the FinTech and Blockchain Industry, with many relevant projects under my belt. I am currently seeking for a software engineering internship position, starting in January 2018. If you would like to chat, feel free to reach out at any one of my social outlets below",
+    "occupation":"Junior Software Engineer,",
+    "description":"mostly interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a software engineering related internship position, starting in January 2018. If you would like to chat, feel free to reach out at any one of my social outlets below",
     "image":"profilepic2.jpg",
-    "bio": "I'm an outgoing, aspiring Software Engineer. I am most experienced with Web Development, using React and NodeJS. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the President of the SFU Cryptocurrency Club. Some other technologies I am massively interested in and excited or is Machine Learning and Artificial Intelligence. If we share any common interests, please feel free to send me a message on LinkedIn and we can chat!",
+    "bio": "I'm an outgoing, aspiring Software Engineer with a passion for developing products that provider real-world impact. I am most experienced with web development, using React and NodeJS. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the President of the SFU Cryptocurrency Club. I also have a huge interest in Artificial Intelligence and Machine Learning. If we share any common interests, please feel free to send me a message on LinkedIn and we can chat!",
     "contactmessage":"If you would like to get in contact with me, please fill out the form and I will email you back at my earliest convienience.",
     "email": "vinsonl@sfu.ca",
     "phone": "",
@@ -33,7 +33,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I am well versed in all aspects of Web Development",
+    "skillmessage":"I am well versed in Web Development and am actively learning everyday to improve my knowledge of Data Analytics and Blockchain Technology",
     "education":[
       {
         "school":"Simon Fraser University",
@@ -110,37 +110,72 @@
         "title":"Savour",
         "category":"A decentralized food-sharing marketplace that allows home-cooks to list their delicious home-cooked meals in a trustless, decentralixed manner.",
         "image":"Savour.png",
-        "url":"https://github.com/vinsonly/Savour"
+        "github": "https://github.com/vinsonly/savour",
+        "url":"https://savour-dev.herokuapp.com",
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "Node",
+          "React",
+          "Redux"
+        ]
       },
       {
         "title":"Coinbay - Classifieds Listing Web App",
         "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrenc payment and escrow solution. Deployed to AWS",
         "image":"Coinbay.png",
-        "url":"http://34.218.253.86/"
+        "github": "https://github.com/vinsonly/Coinbay",
+        "url":"http://34.218.253.86/",
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "Node",
+          "React"
+        ]
       },
       {
         "title":"Savor - Budget Tracker & Lifestyle Web App",
         "category":"A budget tracker lifestyle web app, built using Ruby on Rails.",
         "image":"Savor.png",
-        "url":"https://savor-staging.herokuapp.com"
+        "github": "https://github.com/ajpershick/Savor",
+        "url":"https://savor-staging.herokuapp.com",
+        "technologies": [
+          "Ruby on Rails"
+        ]
       },
       {
         "title":"Cryptocurrency Trading Bot",
         "category":"An automated cryptocurrency trading bot, built with NodeJS to automatically place buy and sell orders, using a custom technical analysis algorithm.",
         "image":"cryptocurrency-trading-bot.jpg",
-        "url":"https://github.com/vinsonly/node-crypto-trading-bot"
+        "github": "https://github.com/vinsonly/node-crypto-trading-bot",
+        "url":"https://github.com/vinsonly/node-crypto-trading-bot",
+        "technologies": [
+          "Node",
+          "Express"
+        ]
       },
       {
         "title":"Personal Website",
         "category":"A personal website built using ReactJS",
         "image":"personal-site.png",
-        "url":"https://vinsonly.herokuapp.com"
+        "github": "https://github.com/vinsonly/personal-website",
+        "url":"https://vinsonly.herokuapp.com",
+        "technologies": [
+          "React",
+          "Node", 
+          "Express"
+        ]
       },
       {
         "title":"SFU Cryptocurrency Club Website",
         "category":"The official website for the SFU Cryptocurrency Club",
         "image":"sfu-crypto-site.png",
-        "url":"https://sfucrypto.herokuapp.com/"
+        "github":"https://github.com/vinsonly/SFUCryptoSite",
+        "url":"https://sfucrypto.herokuapp.com/",
+        "technologies": [
+          "Node", 
+          "Express"
+        ]
       }
     ]
   },

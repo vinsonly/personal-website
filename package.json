@@ -1,18 +1,29 @@
 {
-  "name": "personalportfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "jquery": "^3.2.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-ga": "^2.3.5",
-    "react-scripts": "1.0.17"
-  },
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "Vinson Ly's ",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\" \"sudo service mongod restart\"",
+    "start": "node server.js",
+    "prod": "concurrently --kill-others-on-fail \"yarn start\" \"yarn client\"",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinsonly/personal-website.git"
+  },
+  "author": "Vinson Ly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinsonly/personal-website/issues"
+  },
+  "dependencies": {
+    "concurrently": "^3.6.1",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.8"
   }
 }
