@@ -13,7 +13,7 @@
       "state":"BC"
     },
     "website": "http://www.vinsonly.herokuapp.com",
-    "resumedownload":"https://drive.google.com/open?id=1MbgAisLT0-5f1f41S3jdh11xqJyekBQA",
+    "resumedownload":"https://drive.google.com/file/d/1mCuAom305LF07HDMAl5G4YQy3F8jCISF/view?usp=sharing",
     "social":[
       {
         "name":"linkedin",
@@ -33,11 +33,15 @@
     ]
   },
   "resume":{
-    "skillmessage":"I am well versed in Web Development and am actively learning everyday to broaden my knowledge on Data Analytics and Blockchain Technology",
+    "skillmessage":"I am well versed in Web Development and am actively learning everyday to broaden my knowledge on various technologies such as Data Analytics and Blockchain Technology",
     "education":[
       {
         "school":"Simon Fraser University",
-        "degree":"Software Systems",
+        "degree":"Software Systems Major (Bachelor of Science)",
+        "minor": {
+          "degree":"Business Minor",
+          "description": "A program that established a basic foundation in business principles."
+        },
         "graduated":"January 2017 - Present (Expected Graduation - September 2020)",
         "description":"A program that focuses on the development of high-quality software for the public and private industry."
       }
@@ -47,7 +51,7 @@
         "company":"Porton Health Corp.",
         "title":"Full Stack & AI Developer (Coop)",
         "years":"May 2018 - August 2018",
-        "description":"I was responsible for developing new features, resolving bugs, and refactoring code for the Porton Health Telemedicine Web App. I revamped the live session chat feature using React and WebRTC. Addiitonally, I optimized the performance of the web app, whilst converting the front-end architecture from Blaze to React."
+        "description":"I was responsible for developing new features, resolving bugs, and refactoring code for the Porton Health Telemedicine Web App. I implemented the live session chat and video call feature using React and WebRTC. I designed and implemented backend architecture using MeteorJS and MongoDB."
       }
     ],
     "extracurriculars": [
