@@ -3,6 +3,7 @@ require('dotenv').config(); // load the environment variables
 const express = require('express');
 const bodyParser = require('body-parser');
 const email = require('./emailTransporter');
+const path = require('path');
 
 const app = express();
 
