@@ -4,7 +4,7 @@
     "occupation":"Junior Software Engineer,",
     "description":"mostly interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a software engineering related internship position, starting in January 2018. If you would like to chat, feel free to reach out at any one of my social outlets below",
     "image":"profilepic2.jpg",
-    "bio": "I'm an outgoing, aspiring Software Engineer with a passion for developing products that provider real-world impact. I am most experienced with web development, using React and NodeJS. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the President of the SFU Cryptocurrency Club. I also have a huge interest in Artificial Intelligence and Machine Learning. If we share any common interests, please feel free to send me a message on LinkedIn and we can chat!",
+    "bio": "I'm an outgoing, aspiring Software Engineer with a passion for developing products that have real-world impact. I am most experienced with web development, using React and NodeJS. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the President of the SFU Cryptocurrency Club. I am interested in Artificial Intelligence and Machine Learning and am excited to see how these revolutionary technologies will shape the future of the world. If we share any common interests, please feel free to react out on LinkedIn and we can chat!",
     "contactmessage":"If you would like to get in contact with me, please fill out the form and I will email you back at my earliest convienience.",
     "email": "vinsonl@sfu.ca",
     "phone": "",
@@ -33,7 +33,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I am well versed in Web Development and am actively learning everyday to improve my knowledge of Data Analytics and Blockchain Technology",
+    "skillmessage":"I am well versed in Web Development and am actively learning everyday to broaden my knowledge on Data Analytics and Blockchain Technology",
     "education":[
       {
         "school":"Simon Fraser University",
@@ -108,7 +108,7 @@
     "projects": [
       {
         "title":"Savour",
-        "category":"A decentralized food-sharing marketplace that allows home-cooks to list their delicious home-cooked meals in a trustless, decentralixed manner.",
+        "category":"A decentralized food-sharing marketplace that allows home-cooks to list their delicious home-cooked meals in a trustless, decentralized manner. Payments are fulfilled using our decentralized escrow service, built with Ethereum Smart Contracts",
         "image":"Savour.png",
         "github": "https://github.com/vinsonly/savour",
         "url":"https://savour-dev.herokuapp.com",
@@ -122,7 +122,7 @@
       },
       {
         "title":"Coinbay - Classifieds Listing Web App",
-        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrenc payment and escrow solution. Deployed to AWS",
+        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrency payment and escrow solution. Our custom Ethereum Smart Contract prevents users from bailing after a deal and allows sellers to sell with confidence. Deployed to AWS.",
         "image":"Coinbay.png",
         "github": "https://github.com/vinsonly/Coinbay",
         "url":"http://34.218.253.86/",
@@ -135,7 +135,7 @@
       },
       {
         "title":"Savor - Budget Tracker & Lifestyle Web App",
-        "category":"A budget tracker lifestyle web app, built using Ruby on Rails.",
+        "category":"A budget tracker app that syncs with the user's bank account, providing hassle free budget tracking.",
         "image":"Savor.png",
         "github": "https://github.com/ajpershick/Savor",
         "url":"https://savor-staging.herokuapp.com",
