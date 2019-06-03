@@ -19,16 +19,29 @@ class Resume extends Component {
           </div>
       })
       var work = this.props.data.work.map(function(work){
-        return <div key={work.company}><h3>{work.company}</h3>
+        return (
+          <div key={work.company}>
+            <h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+            {/* <p className="tech-stack">
+              {work.technologies.map(function(tech){
+                return <span className="tech-label">{tech} </span>
+              })}
+            </p> */}
+            <div className="technologies workTechnologies">
+              {work.technologies.map(function(tech){
+                return <div className="technologyItem">{tech} </div>
+              })}
+            </div>
             <p>{work.description}</p>
-        </div>
+          </div>
+        ) 
       })
       var extracurriculars = this.props.data.extracurriculars.map(function(extracurricular){
         return <div key={extracurricular.org}><h3>{extracurricular.org}</h3>
             <p className="info">{extracurricular.title}<span>&bull;</span> <em className="date">{extracurricular.dates}</em></p>
-            <p>{
-              extracurricular.description}
+            <p>{extracurricular.description}</p>
+            <p className="websiteURL">
               {(extracurricular.website) ? (
                 <a href={extracurricular.website}>{extracurricular.website}</a>
               ) : (<div />)}

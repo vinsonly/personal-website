@@ -9,7 +9,7 @@ class Portfolio extends Component {
         return <div key={projects.title} className="columns portfolio-item">
            <a className="githubProjectLink" target="_blank" href={projects.github}><i className="fa fa-github"></i></a> 
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
+            <a href={projects.url} title={projects.title} target="_blank">
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -20,7 +20,7 @@ class Portfolio extends Component {
               <div className="link-icon"><i className="fa fa-link"></i></div>
             </a>
           </div>
-          <div className="projectTechnologies">
+          <div className="technologies">
             {projects.technologies.map((tech, i) => {
               return (technologyItem(tech, i))
             })}
@@ -33,7 +33,7 @@ class Portfolio extends Component {
       <section id="portfolio">
       <div className="row">
          <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Projects.</h1>
+            <h1>Check Out Some of My Projects!</h1>
             <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                 {projects}
             </div>
