@@ -22,10 +22,10 @@ app.post('/api/send_email', (req, res) => {
 
     // setup email data with unicode symbols
     let mailOptions = {
-        from: `${req.body.name} <${req.body.email}>`, // sender address
+        from: `${req.body.contactName} <${req.body.contactEmail}>`, // sender address
         to: 'vinsonl@sfu.ca', // list of receivers
-        subject: `[Personal Site] ${req.body.subject}`, // Subject line
-        text: req.body.message, // plain text body
+        subject: `[Personal Site] ${req.body.contactSubject}`, // Subject line
+        text: req.body.contactMessage, // plain text body
         // html: '<b>Hello world?</b>' // html body
     };
     
