@@ -55,28 +55,17 @@ class Contact extends Component {
           text: "Your message was sent, thank you! I will get back to you as soon as possible."
         })
       } else {
-
-        reactSwal.fire({
-          text: <p>Hello World</p>,
-          text: (
-            <div id="message-warning">
-              <i className="far fa-times-circle"></i>
-              Your message failed to send, please try again later. In the mean time, you can contact me at <a href="https://www.linkedin.com/in/vinsonly/">https://www.linkedin.com/in/vinsonly/</a>. Thanks!
-            </div>
-          )
+        swal({
+          type: "error",
+          html: "Your message failed to send, please try again. If the problem persists, please send me an email at vinsonly62@gmail.com or message me at <a href='https://www.linkedin.com/in/vinsonly/'>https://www.linkedin.com/in/vinsonly/</a>. Thanks!"
         })
       }
     })
     .catch((err) => {
       console.error(err.msg);
-      reactSwal.fire({
-        text: <p>Hello World</p>,
-        text: (
-          <div id="message-warning">
-            <i className="far fa-times-circle"></i>
-            Your message failed to send, please try again later. In the mean time, you can contact me at <a href="https://www.linkedin.com/in/vinsonly/">https://www.linkedin.com/in/vinsonly/</a>. Thanks!
-          </div>
-        )
+      swal({
+        type: "error",
+        html: "Your message failed to send, please try again. If the problem persists, please send me an email at vinsonly62@gmail.com or message me at <a href='https://www.linkedin.com/in/vinsonly/'>https://www.linkedin.com/in/vinsonly/</a>. Thanks!"
       })
     })
   }
