@@ -2,7 +2,7 @@
   "main": {
     "name":"Vinson Ly",
     "occupation":"Software Engineer,",
-    "description":"interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a Software Engineering internship position, starting in September 2019. If you would like to chat, feel free to reach out at any one of my social outlets below",
+    "description":"interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a Software Engineering internship position, starting in January 2020. If you would like to chat, feel free to reach out at any one of my social outlets below",
     "image":"myface2-cropped.jpg",
     "bio": "I'm an outgoing, Software Engineer with a passion for developing products that have real-world impact. I am most experienced with web development, using React and NodeJS or Flask. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the Director of Technology at SFU Blockchain. I am interested in Artificial Intelligence and Machine Learning and am excited to see how these revolutionary technologies will shape the future of the world. If we share any common interests, please feel free to react out on LinkedIn and we can chat!",
     "contactmessage":"If you would like to get in contact with me, please fill out the form and I will email you back at my earliest convienience.",
@@ -12,8 +12,8 @@
       "city":"Vancouver",
       "state":"BC"
     },
-    "website": "http://www.vinsonly.herokuapp.com",
-    "resumedownload":"https://drive.google.com/open?id=1ypILikwylQkLAoza7fm1uf07lfJJDvmD",
+    "website": "https://vinsonly.me",
+    "resumedownload":"/resume/Resume_VinsonLy.pdf",
     "social":[
       {
         "name":"linkedin",
@@ -33,7 +33,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"I am well versed in Web Development and am actively learning everyday to broaden my knowledge on various technologies such as Data Analytics and Blockchain Technology",
+    "skillmessage":"I am well versed in Web Development and am actively learning everyday to broaden my knowledge on various technologies such as Blockchain Technology and Machine Learning.",
     "education":[
       {
         "school":"Simon Fraser University",
@@ -50,7 +50,7 @@
       {
         "company":"SAP Canada Inc.",
         "title":"Software Development Intern",
-        "years":"January 2019 - August 2019",
+        "years":"January 2019 - December 2019",
         "technologies": [
           "ReactJS",
           "Mobx",
@@ -58,7 +58,15 @@
           "MongoDB",
           "Apache"
         ],
-        "description":"Full stack web developer responsible for end-to-end web app development of the Web Service Assessment Portal (WASP) app for SAP GTLC – Vancouver"
+        "description": [
+          "Full stack web developer responsible for client side and server side development, DevOps, and Quality Assurance of the Web Service Assessment Portal(WASP) app for SAP GTLC – Vancouver",
+          "Implemented and deployed to production a complete Commercial Software Review application within WASP",
+          "Increased efficiency of web service reviews done by Compliance Analysts by 200%",
+          "Resolved over 200 bug tickets and implemented 10 features in a span of four months",
+          "Implemented a streamlined software development process that improved team productivity by 80%",
+          "Managed deployment of code onto testing and production servers",
+          "Assumed the role of Scrum Master and designed techincal solutions to satisfy business requirements from Business Analysts"
+        ]
       },
       {
         "company":"Porton Health Corp.",
@@ -70,7 +78,12 @@
           "NodeJS",
           "MongoDB"
         ],
-        "description":"I was responsible for developing new features, resolving bugs, and refactoring code for the Porton Health Telemedicine Web App. I implemented the live session chat and video call feature using React and WebRTC. I designed and implemented backend architecture using MeteorJS and MongoDB."
+        "description": [
+          "Responsible for client side and server side web app development for the Porton Telemedicine Web App",
+          "Developed a live video chat system that served as a core feature in the Porton Telemedicine Web App",
+          "Integrated health organizations and employers into the Porton Telemedicine Web App that allowed the company to onboard entire organizations, rather than individual doctors",
+          "Designed testing workflows to ensure incoming features do not break existing functionality"
+        ]
       }
     ],
     "extracurriculars": [
@@ -113,11 +126,19 @@
       },
       {
         "name":"Flask",
-        "level":"90%"
+        "level":"95%"
       },
       {
         "name":"JavaScript",
         "level":"95%"
+      },
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Java",
+        "level":"85%"
       },
       {
         "name":"HTML",
@@ -137,24 +158,29 @@
       },
       {
         "name":"Git",
-        "level":"70%"
+        "level":"80%"
       },
       {
         "name":"Solidity",
         "level":"50%"
-      },
-      {
-        "name":"Python",
-        "level":"90%"
-      },
-      {
-        "name":"Java",
-        "level":"60%"
       }
     ]
   },
   "portfolio":{
     "projects": [
+      {
+        "title":"Coinbay - Classifieds Listing Web App",
+        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrency payment and escrow solution. Our custom Ethereum Smart Contract prevents users from bailing after a deal and allows sellers to sell with confidence. Deployed to AWS.",
+        "image":"Coinbay.png",
+        "github": "https://github.com/vinsonly/Coinbay",
+        "url":"https://coinbay.vinsonly.me",
+        "technologies": [
+          "MongoDB",
+          "Express",
+          "Node",
+          "React"
+        ]
+      },
       {
         "title":"Savour",
         "category":"A decentralized food-sharing marketplace that allows home-cooks to list their delicious home-cooked meals in a trustless, decentralized manner. Payments are fulfilled using our decentralized escrow service, built with Ethereum Smart Contracts",
@@ -167,19 +193,6 @@
           "Node",
           "React",
           "Redux"
-        ]
-      },
-      {
-        "title":"Coinbay - Classifieds Listing Web App",
-        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrency payment and escrow solution. Our custom Ethereum Smart Contract prevents users from bailing after a deal and allows sellers to sell with confidence. Deployed to AWS.",
-        "image":"Coinbay.png",
-        "github": "https://github.com/vinsonly/Coinbay",
-        "url":"http://34.218.253.86/",
-        "technologies": [
-          "MongoDB",
-          "Express",
-          "Node",
-          "React"
         ]
       },
       {
@@ -208,7 +221,7 @@
         "category":"A personal website built using ReactJS",
         "image":"personal-site.png",
         "github": "https://github.com/vinsonly/personal-website",
-        "url":"https://vinsonly.herokuapp.com",
+        "url":"https://vinsonly.me",
         "technologies": [
           "React",
           "Node", 

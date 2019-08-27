@@ -1,12 +1,13 @@
 div.technologyItem {
-    padding: 3px;
     display: flex;
     word-wrap: break-word;
     background-color: rgb(0, 129, 250);
     color: white;
     margin: 3px 5px 3px 0;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.8em;
+    line-height: 2em;
     border-radius: 5px;
 }
 
