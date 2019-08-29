@@ -37,7 +37,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} target="_blank" className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={process.env.PUBLIC_URL + resumeDownload} target="_blank" className="button" download><i className="fa fa-download" d></i>Download Resume</a>
                   </p>
                </div>
             </div>
