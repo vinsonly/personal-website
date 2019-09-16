@@ -2,7 +2,7 @@
   "main": {
     "name":"Vinson Ly",
     "occupation":"Software Engineer,",
-    "description":"interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a Software Engineering internship position, starting in January 2020. If you would like to chat, feel free to reach out at any one of my social outlets below",
+    "description":"interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a Software Engineering Internship, starting in January or May 2020. If you would like to chat, feel free to reach out at any one of my social outlets below",
     "image":"myface2-cropped.jpg",
     "bio": "I'm an outgoing, Software Engineer with a passion for developing products that have real-world impact. I am most experienced with web development, using React and NodeJS or Flask. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the Director of Technology at SFU Blockchain. I am interested in Artificial Intelligence and Machine Learning and am excited to see how these revolutionary technologies will shape the future of the world. If we share any common interests, please feel free to react out on LinkedIn and we can chat!",
     "contactmessage":"If you would like to get in contact with me, please fill out the form and I will email you back at my earliest convienience.",
@@ -42,7 +42,7 @@
           "degree":"Business Minor",
           "description": "A program that established a basic foundation in business principles."
         },
-        "graduated":"January 2017 - Present (Expected Graduation - September 2020)",
+        "graduated":"January 2017 - Present (Expected Graduation - January 2021)",
         "description":"A program that focuses on the development of high-quality software for the public and private industry."
       }
     ],
@@ -50,7 +50,7 @@
       {
         "company":"SAP Canada Inc.",
         "title":"Software Development Intern",
-        "years":"January 2019 - December 2019",
+        "years":"January 2019 - Current",
         "technologies": [
           "ReactJS",
           "Mobx",
@@ -59,10 +59,10 @@
           "Apache"
         ],
         "description": [
-          "Full stack web developer responsible for client side and server side development, DevOps, and Quality Assurance of the Web Service Assessment Portal(WASP) app for SAP GTLC – Vancouver",
+          "Full stack web developer responsible for client-side and server-side development, DevOps, and quality assurance for the Web Service Assessment Portal (WASP) Web App",
           "Implemented and deployed to production a complete Commercial Software Review application within WASP",
           "Increased efficiency of web service reviews done by Compliance Analysts by 200%",
-          "Resolved over 200 bug tickets and implemented 10 features in a span of four months",
+          "Resolved over 100 bug tickets and implemented 10 features in a span of 8 months",
           "Implemented a streamlined software development process that improved team productivity by 80%",
           "Managed deployment of code onto testing and production servers",
           "Assumed the role of Scrum Master and designed techincal solutions to satisfy business requirements from Business Analysts"
@@ -82,7 +82,8 @@
           "Responsible for client side and server side web app development for the Porton Telemedicine Web App",
           "Developed a live video chat system that served as a core feature in the Porton Telemedicine Web App",
           "Integrated health organizations and employers into the Porton Telemedicine Web App that allowed the company to onboard entire organizations, rather than individual doctors",
-          "Designed testing workflows to ensure incoming features do not break existing functionality"
+          "Designed testing workflows to ensure incoming features do not break existing functionality",
+          "Managed deployment of code onto testing and production servers"
         ]
       }
     ],
@@ -90,7 +91,7 @@
       {
         "org": "SAP Vancouver Intern Committee",
         "title": "Career Development Co-lead",
-        "dates": "May 2019 - Present",
+        "dates": "May 2019 - Aug 2019",
         "description": "Organize events for the intern community at the SAP Vancouver focused on networking, and career development",
         "website": ""
       },
