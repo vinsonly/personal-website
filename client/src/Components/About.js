@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ResumeDownload from './ResumeDownload';
 
 class About extends Component {
   render() {
@@ -35,11 +36,7 @@ class About extends Component {
                      <span><a href={`mailto:${email}`}>{email}</a></span>
 					   </p>
                </div>
-               <div className="columns download">
-                  <p>
-                     <a href={process.env.PUBLIC_URL + resumeDownload} target="_blank" className="button" download><i className="fa fa-download" d></i>Download Resume</a>
-                  </p>
-               </div>
+               <ResumeDownload resumeDownload={resumeDownload} />
             </div>
          </div>
       </div>

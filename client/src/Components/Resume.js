@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import ResumeDownload from './ResumeDownload';
+
+import '../Styles/resume.css';
 
 class Resume extends Component {
   render() {
 
-    if(this.props.data){
+    if(this.props.data && this.props.main){
       var skillmessage = this.props.data.skillmessage;
+      var resumeDownloadLink = this.props.main.resumeDownloadLink;
       console.log("this.props.data.education", this.props.data.education);
       var education = this.props.data.education.map(function(edu){
         return <div key={edu.school}><h3>{edu.school}</h3>
@@ -58,6 +62,13 @@ class Resume extends Component {
 
     return (
       <section id="resume">
+
+        <div className="resume-download-container" style={{
+              position: "absolute",
+              right: 0
+        }}>
+          <ResumeDownload resumeDownload={resumeDownloadLink} />
+        </div>
 
         <div className="row work">
 
