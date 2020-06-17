@@ -65,7 +65,7 @@ class Resume extends Component {
 
         <div className="resume-download-container" style={{
               position: "absolute",
-              right: 0
+              right: "80px"
         }}>
           <ResumeDownload resumeDownload={resumeDownloadLink} />
         </div>
