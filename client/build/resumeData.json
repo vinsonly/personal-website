@@ -2,9 +2,9 @@
   "main": {
     "name":"Vinson Ly",
     "occupation":"Software Engineer,",
-    "description":"interested in the Cloud, FinTech and the Blockchain industry, with many relevant projects under my belt. I am currently seeking for a Software Engineering Internship, starting in January or May 2020. If you would like to chat, feel free to reach out at any one of my social outlets below",
+    "description":"well-versed in full-stack web development, with many relevant projects under my belt. I am currently interning at Microsoft and have previously interned at LinkedIn and SAP. I am currently seeking for a New-grad Software Engineering position. Feel free to reach out at any one of my social outlets below!",
     "image":"myface2-cropped.jpg",
-    "bio": "I'm an outgoing, Software Engineer with a passion for developing products that have real-world impact. I am most experienced with web development, using React and NodeJS or Flask. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the Director of Technology at SFU Blockchain. I am interested in Artificial Intelligence and Machine Learning and am excited to see how these revolutionary technologies will shape the future of the world. If we share any common interests, please feel free to react out on LinkedIn and we can chat!",
+    "bio": "I'm an outgoing, Software Engineer with a passion for developing products that have real-world impact. I am well-versed in full-stack development, and have significant experience with React and NodeJS or Flask. I have a huge interest in Blockchain and Cryptocurrencies and am currently serving as the Director of Technology at SFU Blockchain. I am interested in Artificial Intelligence and Machine Learning and am excited to see how these revolutionary technologies will shape the future of the world. If we share any common interests, please feel free to react out on LinkedIn and we can chat!",
     "contactmessage":"If you would like to get in contact with me, please fill out the form and I will email you back at my earliest convienience.",
     "email": "vinsonly62@gmail.com",
     "phone": "",
@@ -42,15 +42,56 @@
           "degree":"Business Minor",
           "description": "A program that established a basic foundation in business principles."
         },
-        "graduated":"January 2017 - Present (Expected Graduation - January 2021)",
+        "graduated":"January 2017 - Present (Expected Graduation - December 2020)",
         "description":"A program that focuses on the development of high-quality software for the public and private industry."
       }
     ],
     "work":[
       {
+        "company":"Microsoft",
+        "title":"Software Engineer Intern",
+        "years":"May 2020 - Present",
+        "technologies": [
+          "C#",
+          "ASP.NET",
+          "Angular",
+          "React",
+          "Azure"
+        ],
+        "description": [
+          "Full stack developer on the Rewards and Compensation team, under Core Functions Engineering (CFE), CSEO",
+          "Designing and implementing multitenancy for HR app that powers the rewards and compensation system for over 100K Microsoft employees",
+          "Implementing new authentication and authorization system",
+          "Created new validation system and improved REST API error handling",
+          "Implemented unit tests using XUnit",
+          "Redesigning and implementing new UI features",
+          "Participating in daily scrums and attending regular engineering design meetings"
+        ]
+      },
+      {
+        "company":"LinkedIn",
+        "title":"Software Engineer Intern",
+        "years":"January 2020 - April 2020",
+        "technologies": [
+          "Android Studio",
+          "Android JetPack",
+          "Java"
+        ],
+        "description": [
+          "Android developer on the LinkedIn Messaging - Group Chats team",
+          "Implemented the Group Chats Link-to-Join feature, end-to-end on Android, and is expected to significantly drive up Messaging Group Chat metrics",
+          "Rewrote the Conversation Details page using Android Jetpack to improve maintability and scalability of the LinkedIn Messaging codebase",
+          "Refactored the flow in which 1:1 conversations are converted to Group Chats",
+          "Implemented and conducted A/B testing experiments on Android",
+          "Refactored key group messaging pages using Android Jetpack", 
+          "Implemented JUnit tests and Espresso UI tests",
+          "Participated in daily scrums and regular engineering design meetings"
+        ]
+      },
+      {
         "company":"SAP Canada Inc.",
         "title":"Software Development Intern",
-        "years":"January 2019 - Current",
+        "years":"January 2019 - December 2019",
         "technologies": [
           "ReactJS",
           "Mobx",
@@ -170,8 +211,24 @@
   "portfolio":{
     "projects": [
       {
+        "title":"CRADLE VSA (Vital Signs Alert) Platform- Patient Management System",
+        "category":"The CRADLE VSA Platform is an open-source patient management system built to support the CRADLE VSA system to record patient vitals of pregnant women in vulnerable countries and provide a centralized store of patient information for health organizations to consume.",
+        "image":"cradle.png",
+        "github": "https://github.com/vinsonly/cradle-platform",
+        "url":"https://cradle.eastus.cloudapp.azure.com/",
+        "technologies": [
+          "MySQL",
+          "Flask",
+          "React",
+          "Redux",
+          "Docker",
+          "GitLab CI/CD",
+          "Azure"
+        ]
+      },
+      {
         "title":"Coinbay - Classifieds Listing Web App",
-        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrency payment and escrow solution. Our custom Ethereum Smart Contract prevents users from bailing after a deal and allows sellers to sell with confidence. Deployed to AWS.",
+        "category":"A classifieds listing web app with custom built-in Ethereum blockchain cryptocurrency payment and escrow solution. Our custom Ethereum Smart Contract prevents users from bailing after a deal and allows sellers to sell with confidence.",
         "image":"Coinbay.png",
         "github": "https://github.com/vinsonly/Coinbay",
         "url":"https://coinbay.vinsonly.me",
